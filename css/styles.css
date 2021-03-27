@@ -1,0 +1,151 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #000;
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#background-video{
+  position: fixed;
+  opacity: 0.8;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+main{width: 100%;}
+
+.boxes{
+  margin: 30px 0px 10px 0px;
+}
+
+h1{margin: 0px; padding: 50px 0px 0px 50px; color: tomato;}
+h2{text-align: center;}
+p{padding: 0px 30px 0px 40px;}
+
+.centerBoxText{
+  display: inline-block;
+  width: 50%;
+  height: auto;
+}
+.leftBoxText{
+  display: inline-block;
+  width: 70%;
+  height: auto;
+}
+.rightBoxText{
+  display: inline-block;
+  width: 70%;
+  height: auto;
+}
+
+.photoBox01{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+  background-image: url(../img/book01.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+.photoBox02{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+  background-image: url(../img/book02.jpg);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+.photoBox03{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 200px;
+  margin-left: 30px;
+  background-image: url(../img/book03.jpg);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+
+.photoBox04{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 700px;
+  margin-left: 30px;
+  background-image: url(../img/book02.jpg);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+.photoBox05{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  height: 700px;
+  margin-left: 20px;
+  background-image: url(../img/book03.jpg);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+
+.memberBox01{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-image: url(../img/member01.jpg);
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(174, 119, 226);
+}
+
+
+.infomation{
+  height: auto;
+  font-size: 32px;
+}
+.infomation dl{
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.infomation dt {
+  float: left;
+  width: 8em
+}
+.infomation dt,
+.infomation dd{
+  line-height: 1.5; /*行の高さ*/
+}
+
+footer{
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}
